@@ -12,7 +12,7 @@ import { Dispatch } from "@reduxjs/toolkit";
 import { setProducts } from "./slice";
 import { Product, ProductInquiry } from "../../../lib/types/product";
 import { createSelector } from "reselect";
-import {  retrieveChosenProduct,  retrieveProducts,  retrieveStore} from "./selector";
+import { retrieveProducts} from "./selector";
 import ProductService from "../../services/ProductService";
 import { ProductCollection } from "../../../lib/enums/product.enum";
 import { serverApi } from "../../../lib/config";
@@ -41,7 +41,7 @@ export default function Products(props: ProductsProps) {
     const { products } = useSelector(productsRetriever);
     const [productSearch, setProductSearch] = useState<ProductInquiry>({ 
       page: 1,
-      limit: 8,
+      limit: 16,
       order: "createdAt",
       productCollection: ProductCollection.CLOTHS,
       search: ""
@@ -185,14 +185,14 @@ export default function Products(props: ProductsProps) {
               </Button>
               <Button
                 variant={"contained"}
-                 color={productSearch.productCollection === ProductCollection.T_SHIRT 
+                 color={productSearch.productCollection === ProductCollection.T_SHORT 
                   ? "primary" 
                   : "secondary"
                 }
                 className="order-2"
-                onClick={() => searchCollectionHandler(ProductCollection.T_SHIRT)}
+                onClick={() => searchCollectionHandler(ProductCollection.T_SHORT)}
               >
-                T_SHIRT
+                T_SHORT
               </Button>
               <Button
                 variant={"contained"}

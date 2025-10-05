@@ -1,7 +1,6 @@
 import { Box, Button, Container, Input, ListItemIcon, Menu, MenuItem, Stack } from "@mui/material";
 import { NavLink } from "react-router-dom";
 import Basket from "./Basket";
-import React, { useEffect, useState } from "react";
 import { CartItem } from "../../../lib/types/search";
 import { useGlobals } from "../../hooks/useGlobal";
 import { serverApi } from "../../../lib/config";

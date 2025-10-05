@@ -47,7 +47,7 @@ export  default function OtherNavbar(props: OtherNavbarProps) {
                 <NavLink to="/">
                 <img 
                 className="brand-logo"
-                style={{ width: "125px", height: "30px" }} 
+                style={{ width: "100px", height: "46px" }} 
                 src="/icons/storesvg.webp"/>
 
                 </NavLink>
