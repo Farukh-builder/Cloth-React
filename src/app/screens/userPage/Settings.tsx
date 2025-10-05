@@ -8,7 +8,6 @@ import { T } from "../../../lib/types/common";
 import { sweetErrorHandling, sweetTopSmallSuccessAlert } from "../../../lib/sweetAlert";
 import { Messages, serverApi } from "../../../lib/config";
 import MemberService from "../../services/MemberService";
-import { url } from "inspector";
 
 export function Settings() {
   const { authMember, setAuthMember } = useGlobals();  
