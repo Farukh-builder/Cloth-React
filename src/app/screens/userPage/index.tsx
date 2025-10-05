@@ -42,11 +42,11 @@ export default function UserPage() {
                      : "/icons/default-user.svg"}
                     className={"order-user-avatar"}
                   />
-                  <div className={"order-user-icon-box"}>
+                  <div className={""}>
                     <img src={
                       authMember?.memberImage === MemberType.STORE
-                     ? "/icons/restaurant.svg"
-                     : "/icons/user-badge.svg"
+                     ? ""
+                     : ""
 
                     } 
                      />

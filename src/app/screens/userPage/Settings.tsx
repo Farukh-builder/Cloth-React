@@ -6,8 +6,6 @@ import { useState } from "react";
 import { MemberUpdateInput } from "../../../lib/types/member";
 import { T } from "../../../lib/types/common";
 import { sweetErrorHandling, sweetTopSmallSuccessAlert } from "../../../lib/sweetAlert";
-import { error } from "console";
-import { Message } from "@mui/icons-material";
 import { Messages, serverApi } from "../../../lib/config";
 import MemberService from "../../services/MemberService";
 import { url } from "inspector";

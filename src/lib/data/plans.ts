@@ -25,7 +25,7 @@ export const plans = [
 	},
 	{
 		title: 'Join us on sns',
-		desc: '🥬 We are offering healthy discounts for new brands',
+		desc: '🥬 We are offering  discounts for new brands',
 		author: 'Soso',
 		date: 'A week ago',
 		location: 'Europe, France',
