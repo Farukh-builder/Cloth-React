@@ -167,6 +167,28 @@
   box-shadow: var(--shadow-lg);
 }
 
+/* Login Form Input Label Fix */
+.MuiFormLabel-root {
+  background: white !important;
+  padding: 0 4px !important;
+  z-index: 10 !important;
+}
+
+.MuiOutlinedInput-input {
+  position: relative !important;
+  z-index: 1 !important;
+}
+
+/* Alternative - if you want to style the specific login form inputs */
+.login-form .MuiTextField-root .MuiInputLabel-root {
+  background: white !important;
+  padding: 0 4px !important;
+}
+
+.login-form .MuiOutlinedInput-notchedOutline legend {
+  max-width: 100% !important;
+}
+
 .home-navbar .navbar-container .menu .user-avatar {
   width: 50px;
   height: 50px;
