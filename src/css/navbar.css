@@ -5,8 +5,8 @@
   /* Navbar specific colors */
   --navbar-bg: linear-gradient(135deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5));
   --navbar-text: #f8f8ff;
-  --navbar-text-hover: #d7b686;
-  --navbar-accent: #3776cc;
+  --navbar-text-hover: #8f5e5e;
+  --navbar-accent: #95091e;
   --navbar-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
   
   /* Navbar dimensions */
@@ -108,7 +108,6 @@
   transition: var(--navbar-transition);
   position: relative;
   padding: var(--spacing-xs) var(--spacing-sm);
-  border-radius: var(--border-radius-md);
 }
 
 .home-navbar .hover-line a {
@@ -270,7 +269,7 @@
   width: 210px;
   height: 60px;
   border-radius: var(--border-radius-md);
-  background: linear-gradient(135deg, #1976d2, #1565c0);
+  background: linear-gradient(135deg, #321415, #901111);
   color: var(--navbar-text);
   text-align: center;
   font-family: var(--font-primary);
@@ -404,7 +403,6 @@
   transition: var(--navbar-transition);
   position: relative;
   padding: var(--spacing-xs) var(--spacing-sm);
-  border-radius: var(--border-radius-md);
 }
 
 .other-navbar .hover-line a {

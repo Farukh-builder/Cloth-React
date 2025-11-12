@@ -7,7 +7,7 @@ export default function Statistics() {
       <Container>
         {/* Left side - Title and Description */}
         <div className="stats-content">
-          <h2 className="stats-title">Our Stats</h2>
+          <h2 className="stats-title">Our Statatics</h2>
           <p className="stats-description">
             We help you to choose any the best outputs
           </p>
@@ -17,7 +17,7 @@ export default function Statistics() {
         <div className="stats-grid">
           <div className="static-box">
             <h2>12</h2>
-            <p>Restaurant</p>
+            <p>Brand Stores</p>
           </div>
 
           <div className="static-box">

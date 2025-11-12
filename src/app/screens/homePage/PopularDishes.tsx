@@ -29,7 +29,7 @@ export default function PopularDishes() {
   <div className="popular-dishes-frame ">
     <Container>
       <Stack className="popular-section">
-        <Box className="category-title">Popular Dishes</Box>
+        <Box className="category-title">Popular Products</Box>
         <Stack className="cards-frame">
         {popularDishes.length !== 0 ? (
          popularDishes.map((product: Product) => {
@@ -49,7 +49,7 @@ export default function PopularDishes() {
                     <Typography 
                       level="h2"
                       fontSize="lg"
-                      textColor="#fff"
+                      textColor="#020202ff"
                       mb={1}
                     >
                       {product.productName}
@@ -81,7 +81,7 @@ export default function PopularDishes() {
              >
               <Typography 
                startDecorator={<DescriptionOutlinedIcon/>}
-               textColor="neutral.300"
+               textColor="neutral.900"
               >
               {product.productDesc}
               </Typography>

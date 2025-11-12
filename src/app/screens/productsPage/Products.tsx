@@ -181,7 +181,7 @@ export default function Products(props: ProductsProps) {
                 className="order-2"
                 onClick={() => searchCollectionHandler(ProductCollection.SNEAKERS)}
               >
-                SNEAKERS
+                foots
               </Button>
               <Button
                 variant={"contained"}
@@ -192,7 +192,7 @@ export default function Products(props: ProductsProps) {
                 className="order-2"
                 onClick={() => searchCollectionHandler(ProductCollection.T_SHORT)}
               >
-                T_SHORT
+                SHORTS
               </Button>
               <Button
                 variant={"contained"}
